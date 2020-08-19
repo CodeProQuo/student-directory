@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot of StudentGrid 1`] = `
+<DocumentFragment>
+  <div
+    class="student-grid"
+  >
+    <input
+      id="name-input"
+      placeholder="Search by name"
+      type="text"
+    />
+    <input
+      id="tag-input"
+      placeholder="Search by tags"
+      type="text"
+    />
+    <div
+      class="student"
+      data-testid="student"
+    >
+      <div>
+        <img
+          alt="Student's picture"
+          src="http://www.google.com"
+        />
+      </div>
+      <div
+        class="student-info"
+      >
+        <h1>
+          JOHN DOE
+        </h1>
+        <p>
+          Email: johndoe@email.com
+        </p>
+        <p>
+          Company: ABC
+        </p>
+        <p>
+          Skill: Archery
+        </p>
+        <p>
+          Average: 30%
+        </p>
+        <div
+          class="student-details collapsed"
+        >
+          <p>
+            Test 1: 20%
+          </p>
+          <p>
+            Test 2: 30%
+          </p>
+          <p>
+            Test 3: 40%
+          </p>
+          <div
+            class="tag-container"
+          />
+          <input
+            id="add-tag-input"
+            placeholder="Add new tag"
+            type="text"
+          />
+        </div>
+      </div>
+      <button
+        class="expand-btn closed"
+      />
+    </div>
+    <div
+      class="student"
+      data-testid="student"
+    >
+      <div>
+        <img
+          alt="Student's picture"
+          src="http://www.google.com"
+        />
+      </div>
+      <div
+        class="student-info"
+      >
+        <h1>
+          JANE DOE
+        </h1>
+        <p>
+          Email: janedoe@email.com
+        </p>
+        <p>
+          Company: NBC
+        </p>
+        <p>
+          Skill: Bowling
+        </p>
+        <p>
+          Average: 65%
+        </p>
+        <div
+          class="student-details collapsed"
+        >
+          <p>
+            Test 1: 50%
+          </p>
+          <p>
+            Test 2: 60%
+          </p>
+          <p>
+            Test 3: 70%
+          </p>
+          <p>
+            Test 4: 80%
+          </p>
+          <div
+            class="tag-container"
+          />
+          <input
+            id="add-tag-input"
+            placeholder="Add new tag"
+            type="text"
+          />
+        </div>
+      </div>
+      <button
+        class="expand-btn closed"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

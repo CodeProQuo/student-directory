@@ -1,0 +1,101 @@
+/* .student styling */
+
+.student {
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.student h1 {
+    margin: 10px 0 15px 0;
+    font-family: Raleway bold, sans-serif;
+}
+
+.student img {
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    width: 100px;
+    margin: 20px;
+}
+
+.collapsed {
+    display: none;
+}
+
+.student-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* .student-details styling */
+
+.student-details {
+    margin-top: 10px;
+}
+
+/* tag styling */
+
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0 5px 20px;
+}
+
+.tag {
+    background-color: #dcdcdc;
+    border-radius: 5px;
+    display: inline;
+
+    margin: 2px 2px 2px 2px;
+    padding: 5px 5px 5px 5px;
+}
+
+.tag:hover {
+    background-color: gray;
+}
+
+/* .expand-btn styling*/
+
+.expand-btn {
+    background-color: white;
+    border: 0;
+    height: 0;
+}
+
+.expand-btn:focus {
+    outline: 0;
+}
+
+.expand-btn::after {
+    content: "\2212";
+    color: grey;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.expand-btn.closed::after {
+    content: "\002B";
+}
+
+.expand-btn:hover:after {
+    color: black;
+}
+
+/* #add-tag-input styling */
+
+#add-tag-input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #dcdcdc;
+    height: 30px;
+    padding: 10px 0 0 0;
+    font-size: 15px;
+}
+
+#add-tag-input:focus {
+    outline: none;
+    border-bottom: 1px solid black;
+}
+

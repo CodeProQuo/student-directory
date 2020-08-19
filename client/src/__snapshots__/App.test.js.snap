@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="app"
+  >
+    <div
+      class="student-grid"
+    >
+      <input
+        id="name-input"
+        placeholder="Search by name"
+        type="text"
+      />
+      <input
+        id="tag-input"
+        placeholder="Search by tags"
+        type="text"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
